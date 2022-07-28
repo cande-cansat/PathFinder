@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatGS.PathFinder", "PathFinder\SatGS.PathFinder.csproj", "{3FD9A00E-8CD5-4A29-93B4-6A7C6A6F79C9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{E127E956-9CBE-40C9-93AA-78954E8EE3BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatGS.PathFinder", "SatGS.PathFinder\SatGS.PathFinder.csproj", "{3FD9A00E-8CD5-4A29-93B4-6A7C6A6F79C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3FD9A00E-8CD5-4A29-93B4-6A7C6A6F79C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FD9A00E-8CD5-4A29-93B4-6A7C6A6F79C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FD9A00E-8CD5-4A29-93B4-6A7C6A6F79C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FD9A00E-8CD5-4A29-93B4-6A7C6A6F79C9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E127E956-9CBE-40C9-93AA-78954E8EE3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E127E956-9CBE-40C9-93AA-78954E8EE3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E127E956-9CBE-40C9-93AA-78954E8EE3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E127E956-9CBE-40C9-93AA-78954E8EE3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD9A00E-8CD5-4A29-93B4-6A7C6A6F79C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD9A00E-8CD5-4A29-93B4-6A7C6A6F79C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD9A00E-8CD5-4A29-93B4-6A7C6A6F79C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD9A00E-8CD5-4A29-93B4-6A7C6A6F79C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
