@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using SatGS.PathFinder;
 
-namespace Backend
+namespace TestConsole
 {
-    class Program
+    internal class Program
     {
         public static Coordinate lastCoord = new Coordinate(100, 100, 100);
 
         static void Main(string[] args)
         {
             PathCalculator calculator = new PathCalculator();
-            
+
 
             calculator.setInitialPos(
                             new PositionData(
@@ -33,8 +34,8 @@ namespace Backend
                 {
                     for (int i = 0; i < path.Count; i++)
                     {
-                        Console.WriteLine("t:{0}, x:{1}, y:{2}, z:{3}",i, path[i].item1, path[i].item2, path[i].item3);
-                        
+                        Console.WriteLine("t:{0}, x:{1}, y:{2}, z:{3}", i, path[i].item1, path[i].item2, path[i].item3);
+
                     }
                     Console.WriteLine();
                 }
@@ -55,7 +56,7 @@ namespace Backend
             float rho = 10;
             float theta = 10;
             float phi = 10;
-            return new Coordinate(rho,theta,phi);
+            return new Coordinate(rho, theta, phi);
         }
     }
 }

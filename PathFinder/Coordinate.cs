@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Backend
+namespace SatGS.PathFinder
 {
-    class Coordinate
+    public class Coordinate
     {
         public float item1;
         public float item2;
@@ -46,7 +46,7 @@ namespace Backend
 
     }
 
-    class PositionData
+    public class PositionData
     {
         private Coordinate satellitePos;
         private Coordinate relativeTargetSphericalPos;

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Backend
+namespace SatGS.PathFinder
 {
-    class PathCalculator
+    public class PathCalculator
     {
         private PositionData oldPos;
         private PositionData newPos;
